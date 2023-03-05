@@ -24,6 +24,7 @@ export const SnackbarComponent: React.FunctionComponent<Props> = (props) => {
       open={open}
       autoHideDuration={autoHideDuration}
       onClose={onClose}
+      data-cy="snackbar"
     >
       <SnackbarContent
         className={classes[options.variant]}
